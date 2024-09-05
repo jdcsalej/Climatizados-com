@@ -1,0 +1,77 @@
+/*!
+ * Bootstrap Icons v1.10.5 (https://icons.getbootstrap.com/)
+ * Copyright 2019-2023 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
+ */
+
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2")
+      format("woff2"),
+    url("./fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2")
+      format("woff");
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-phone-fill::before {
+  content: "\f4e2";
+  font-size: 1.5rem;
+}
+
+.bi-facebook::before {
+  content: "\f344";
+  font-size: 1.5rem;
+}
+
+.bi-instagram::before {
+  content: "\f437";
+  font-size: 1.5rem; /* Ajusta este valor según tus necesidades */
+}
+
+.bi-play-btn-fill::before {
+  content: "\f4f0";
+}
+.bi-play-btn::before {
+  content: "\f4f1";
+}
+.bi-play-circle-fill::before {
+  content: "\f4f2";
+}
+.bi-play-circle::before {
+  content: "\f4f3";
+}
+.bi-play-fill::before {
+  content: "\f4f4";
+}
+.bi-play::before {
+  content: "\f4f5";
+}
+
+.bi-list-check::before { content: "\f473"; }
+.bi-list-nested::before { content: "\f474"; }
+.bi-list-ol::before { content: "\f475"; }
+.bi-list-stars::before { content: "\f476"; }
+.bi-list-task::before { content: "\f477"; }
+.bi-list-ul::before { content: "\f478"; }
+.bi-list::before { content: "\f479"; }
+
+.bi-arrow-up-short::before {
+  content: "\f145";
+}
+
+.bi-x::before { content: "\f62a"; }
